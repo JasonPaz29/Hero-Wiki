@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My website</title>
+    <style>
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: sans-serif;
+            transition: all 0.3s ease;
+
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            transform: scale(1.05);
+
+        }
+
+        nav ul li a.active {
+            color: yellow;
+
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            clear: both;
+            text-align: center;
+            background-color: #0056b3;
+            padding: 15px;
+            margin: 20px auto;
+            width: 500px;
+            color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.4);
+
+
+        }
+
+        .main a {
+            color:white;
+            font-weight: bold;
+            text-decoration: none;
+            font-family: sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .main a:hover {
+            color: yellowgreen;
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="heroes.html">Heroes</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<div class="main">
+    <h1>Welcome to my Hero Page</h1>
+    <p>This is where I talk about my favorite superheroes!</p>
+    <p>You can click on the top left to look at the heros!, or you can tap below.</p>
+    <a href="heroes.html">Heroes</a>
+</div>
+</body>
+</html>

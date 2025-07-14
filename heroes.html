@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Favorite Hero</title>
+
+    <style>
+
+        .hero {
+  clear: both;
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 15px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+        .hero:hover {
+            transform: scale(1.05);
+            background-color: antiquewhite;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 75px;
+            object-fit: cover;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul li a.active {
+            color: yellow;
+        }
+
+        body {
+            margin: 0;
+        }
+        .hero a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+        .hero a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+    <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="heroes.html">Heroes</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+    <main>
+    <div class="hero">
+        <h2>Son Goku</h2>
+        <img src="images/Goku.png" alt="An image of Goku">
+        <p>Goku is a <strong>saiyan</strong> who trains hard and wants to be the strongest</p>
+        <a href="https://en.wikipedia.org/wiki/Goku" target="_blank">Learn More</a>
+    </div>
+    
+    <div class="hero">
+        <h2>Monkey D Luffy</h2>
+        <img src="images/Luffy.png" alt="An image of Luffy">
+        <p>Luffy is a <strong>pirate</strong> who wants to become the strongest and tries to find the One Piece</p>
+        <a href="https://en.wikipedia.org/wiki/Monkey_D._Luffy" target="_blank">Learn More</a>
+    </div>
+    
+    <div class="hero">
+        <h2>Superman</h2>
+        <img src="images/Superman.png" alt="An image of Superman">
+        <p>Superman is an <strong>alien</strong> who came to Earth and is one of the strongest superheroes on the planet</p>
+        <a href="https://en.wikipedia.org/wiki/Superman" target="_blank">Learn More</a>
+    </div>
+    </main>
+    
+</body>
+</html>

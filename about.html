@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+
+  <style>
+  nav {
+            background-color: #333;
+            padding: 10px 20px;
+               }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover{
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+
+        nav ul li a.active {
+            color: yellow;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .core {
+            text-align: center;
+            font-family: sans-serif;
+            background-color: aliceblue;
+            justify-content: center;
+            padding: 50px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            display: flex;
+            width: 500px;
+            flex-direction: column;
+            margin: 20px auto;
+        }
+
+        .core a {
+            color: black;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .core a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+            transform: scale(1.05);
+        }
+        </style>
+
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="heroes.html">Heroes</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<div class="core">
+    <h1>Hello!, This is about me and How I made this website.</h1>
+    <h2>This was my first ever HTML project and I wanted to see how I would be able to do in this project.</h2>
+    <p>This website took me quite a while to figure and since i was just starting to learn CSS and HTML it took me quite a while before I got the hang out of it</p>
+    <p>I am happy with the final project and hope these skills will be able to help me in my journey to start programming flask.</p>
+    <p>Check out my github below to see my other projects!</p>
+    <a href="https://github.com/JasonPaz29", target="_blank">GitHub</a>
+</div>
+</body>
+</html>
